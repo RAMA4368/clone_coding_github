@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub</title>
+
+    <meta name="author" content="HEROPY">
+    <meta name="description" content="github clone coding">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property = "og:title" content="Github">
+    <meta property="og:description" content="">
+
+    <!-- Twitter Card -->
+    <meta property="twitter:title" content="Github">
+
+    <!-- favicon : 페이지 탭부분에 아이콘이 삽입되도록 -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" href="./favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- reset.css cdn , css 파일 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"> <!--css 먹기전에 reset.css를 먹여줘야한다.-->
+    <link rel="stylesheet" href="css/main.css">
+    
+    
+</head>
+<!-- BEM 작명규칙 -->
+<!--
+    __ : ~의 일부분
+    -- : ~의 상태 ex)btn--danger, btn--success, btn--cancel
+-->
+
+<body>
+    <div class="body__container"> 
+        
+        <!-- HEADER -->
+        <header class="section">
+            <div class="inner clearfix">
+                <div class="menu-group float--left">
+                    <div class="logo">
+                        <a href="#">GitHub</a>
+                    </div>
+                    <ul class="main-menu">
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">Open source</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Explore</a></li>
+                    </ul>
+                </div>
+
+                <div class="sign-group float--right">
+                    <div class="btn-group">
+                        <a href="#" class="btn sign-in">Sign in</a>
+                        <a href="#" class="btn btn--primary sign-up">Sign up</a>
+                    </div>
+                    <form id="search-form" action="" method="POST">
+                        <input type="text" id="search" class="input--text" placeholder="Search GitHub">
+                        <input type="submit" value="Submit">
+                    </form>
+                    <ul class="sub-menu">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- VISUAL -->
+        <section class="section section--visual">
+            <div class="inner">
+                <div class="summary">
+                    <div class="summary__title">
+                        How&nbsp;people build&nbsp;softwareaaaaaaaaa
+                        <!-- &nbsp;는 자연스러운 연결 -->
+                    </div>
+                    <div class="summary__description">
+                        하이하이하이 하이하잏 ㅏ히아항히ㅏㅇ히아히아히아힝아히ㅏ히아히,&nbsp;ㅋㅋ이하잏
+                    </div>
+                </div>
+                <form id="sign-form" method="POST" action="">
+                    <ul>
+                        <li><input type="text" class="input--text" placeholder="Pick a username"></li>
+                        <li><input type="email" class="input--text" placeholder="Your email address"></li>
+                        <li>
+                            <input type="password" class="input--text" placeholder="Create a password">
+                            <p class="caption">Use at least blahblah</p>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn btn--primary">Sign up for GitHub</button>
+                            <p class="caption">By clicking blahblah</p>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+<!-- FEATURE -->
+<section class="section section--feature">
+<div class="summary">
+    <div class="summary__title">
+        Welcome home, developers
+    </div>
+    <div class="summary__description">
+        GitHub fosters a fast, flexible, and collaboration
+    </div>
+    <div class="viedo">
+        <div class="video-ratio">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/mlHhkzuCRWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+</section>
+
+    </div>
+</body>
+</html>
